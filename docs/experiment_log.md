@@ -23,3 +23,13 @@
 | 20260506-08 | 2026-05-06 04:33 | Huber minus failed Ridge rank component, `t=0.32` | Fine grid near `t=0.24` | 0.05321 | reject | Too much correction. |
 | 20260506-09 | 2026-05-06 04:34 | Huber minus failed Ridge rank component, `t=0.23` | Fine grid near `t=0.24` | 0.05252 | reject | Fine rank changes were not smooth on Public LB. |
 | 20260506-10 | 2026-05-06 04:34 | Huber minus failed Ridge rank component, `t=0.25` | Fine grid near `t=0.24` | 0.05254 | reject | Fine rank changes were not smooth on Public LB. |
+| 20260507-01 | 2026-05-07 23:00 | Huber minus failed Ridge rank component, `t=0.18` | Fine grid below `t=0.24` | 0.05341 | keep best | Current best public score and leaderboard rank 1. |
+| 20260507-02 | 2026-05-07 23:01 | Huber minus failed Ridge rank component, `t=0.20` | Fine grid below `t=0.24` | 0.05337 | keep | Above previous best, below `t=0.18`. |
+| 20260507-03 | 2026-05-07 23:01 | Huber minus failed Ridge rank component, `t=0.21` | Fine grid below `t=0.24` | 0.05337 | keep | Similar to `t=0.20`. |
+| 20260507-04 | 2026-05-07 23:02 | Huber minus failed Ridge rank component, `t=0.22` | Fine grid below `t=0.24` | 0.05336 | keep | Slightly below `t=0.20-0.21`. |
+| 20260507-05 | 2026-05-07 23:02 | Huber minus failed Ridge rank component, `t=0.23` | Fine grid below `t=0.24` | 0.05334 | keep | Still above the former rank-1 score. |
+| 20260507-06 | 2026-05-07 23:03 | Huber minus failed Ridge rank component, `t=0.25` | Fine grid above `t=0.24` | 0.05327 | reject | Correction is too strong. |
+| 20260507-07 | 2026-05-07 23:03 | Huber minus failed Ridge rank component, `t=0.27` | Fine grid above `t=0.24` | 0.05325 | reject | Correction is too strong. |
+| 20260507-08 | 2026-05-07 23:04 | Huber minus Ridge and ElasticNet rank components | Spearman with prior best `0.9994` | 0.05321 | reject | Extra component did not help. |
+| 20260507-09 | 2026-05-07 23:04 | Apply `t=0.24` correction only to even-numbered codes | Code-group diagnostic | 0.05126 | reject | Code-filtered correction was harmful. |
+| 20260507-10 | 2026-05-07 23:05 | Apply `t=0.24` correction only to high-count codes | Code-group diagnostic | 0.05124 | reject | Code-filtered correction was harmful. |
