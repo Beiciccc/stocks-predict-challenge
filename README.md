@@ -10,7 +10,7 @@ Competition: https://www.kaggle.com/competitions/stocks-challenge
 - Metric: RankIC.
 - Data: anonymized features `f_0` through `f_6`, stock identifier `code`, target `y`.
 - Train/test `code` values do not overlap, so cross-stock generalization is central.
-- Best public score recorded here: `0.05341`.
+- Best public score recorded here: `0.05345`.
 - Current public leaderboard rank after the latest recorded run: 1.
 
 ## Repository Contents

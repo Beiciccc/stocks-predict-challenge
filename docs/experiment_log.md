@@ -33,3 +33,13 @@
 | 20260507-08 | 2026-05-07 23:04 | Huber minus Ridge and ElasticNet rank components | Spearman with prior best `0.9994` | 0.05321 | reject | Extra component did not help. |
 | 20260507-09 | 2026-05-07 23:04 | Apply `t=0.24` correction only to even-numbered codes | Code-group diagnostic | 0.05126 | reject | Code-filtered correction was harmful. |
 | 20260507-10 | 2026-05-07 23:05 | Apply `t=0.24` correction only to high-count codes | Code-group diagnostic | 0.05124 | reject | Code-filtered correction was harmful. |
+| 20260509-01 | 2026-05-09 20:47 | Huber minus failed Ridge rank component, `t=0.12` | Fine grid below `t=0.18` | 0.05316 | reject | Correction too weak. |
+| 20260509-02 | 2026-05-09 20:47 | Huber minus failed Ridge rank component, `t=0.14` | Fine grid below `t=0.18` | 0.05329 | reject | Improved but below current best. |
+| 20260509-03 | 2026-05-09 20:47 | Huber minus failed Ridge rank component, `t=0.15` | Fine grid below `t=0.18` | 0.05330 | reject | Improved but below current best. |
+| 20260509-04 | 2026-05-09 20:48 | Huber minus failed Ridge rank component, `t=0.16` | Fine grid below `t=0.18` | 0.05342 | keep | Slightly above previous best. |
+| 20260509-05 | 2026-05-09 20:49 | Huber minus failed Ridge rank component, `t=0.17` | Fine grid near `t=0.18` | 0.05342 | keep | Tied with `t=0.16`. |
+| 20260509-06 | 2026-05-09 20:49 | Huber minus failed Ridge rank component, `t=0.175` | Fine grid near `t=0.18` | 0.05345 | keep best | Current best public score and leaderboard rank 1. |
+| 20260509-07 | 2026-05-09 20:49 | Huber minus failed Ridge rank component, `t=0.185` | Fine grid near `t=0.18` | 0.05338 | reject | Slightly too much correction. |
+| 20260509-08 | 2026-05-09 20:50 | Huber minus failed Ridge rank component, `t=0.19` | Fine grid above `t=0.18` | 0.05340 | reject | Below `t=0.175`. |
+| 20260509-09 | 2026-05-09 20:51 | Huber minus clipped failed Ridge rank component, `t=0.18` | 1%-99% clipped component | 0.05342 | reject | Clipping did not beat plain `t=0.175`. |
+| 20260509-10 | 2026-05-09 20:51 | Huber minus nonlinear failed Ridge rank component, `t=0.18` | Power transform diagnostic | 0.05341 | reject | Nonlinear transform did not improve. |
