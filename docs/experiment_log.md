@@ -43,3 +43,13 @@
 | 20260509-08 | 2026-05-09 20:50 | Huber minus failed Ridge rank component, `t=0.19` | Fine grid above `t=0.18` | 0.05340 | reject | Below `t=0.175`. |
 | 20260509-09 | 2026-05-09 20:51 | Huber minus clipped failed Ridge rank component, `t=0.18` | 1%-99% clipped component | 0.05342 | reject | Clipping did not beat plain `t=0.175`. |
 | 20260509-10 | 2026-05-09 20:51 | Huber minus nonlinear failed Ridge rank component, `t=0.18` | Power transform diagnostic | 0.05341 | reject | Nonlinear transform did not improve. |
+| 20260510-01 | 2026-05-10 00:32 | Huber minus failed Ridge rank component, `t=0.162` | Fine grid near `t=0.175` | 0.05342 | reject | Below current best. |
+| 20260510-02 | 2026-05-10 00:32 | Huber minus failed Ridge rank component, `t=0.166` | Fine grid near `t=0.175` | 0.05341 | reject | Below current best. |
+| 20260510-03 | 2026-05-10 00:32 | Huber minus failed Ridge rank component, `t=0.168` | Fine grid near `t=0.175` | 0.05342 | reject | Below current best. |
+| 20260510-04 | 2026-05-10 00:33 | Huber minus failed Ridge rank component, `t=0.172` | Fine grid near `t=0.175` | 0.05343 | reject | Close, but below current best. |
+| 20260510-05 | 2026-05-10 00:33 | Huber minus failed Ridge rank component, `t=0.174` | Fine grid near `t=0.175` | 0.05343 | reject | Close, but below current best. |
+| 20260510-06 | 2026-05-10 00:34 | Huber minus failed Ridge rank component, `t=0.176` | Fine grid near `t=0.175` | 0.05344 | keep | Closest challenger to current best. |
+| 20260510-07 | 2026-05-10 00:34 | Huber minus failed Ridge rank component, `t=0.178` | Fine grid near `t=0.175` | 0.05341 | reject | Correction slightly too strong. |
+| 20260510-08 | 2026-05-10 00:35 | Huber minus failed Ridge rank component, `t=0.180` | Fine grid near `t=0.175` | 0.05341 | reject | Correction slightly too strong. |
+| 20260510-09 | 2026-05-10 00:35 | Huber minus failed Ridge rank component, `t=0.182` | Fine grid near `t=0.175` | 0.05339 | reject | Correction too strong. |
+| 20260510-10 | 2026-05-10 00:35 | Huber minus clipped failed Ridge rank component, `t=0.175` | 0.5%-99.5% clipped component | 0.05345 | keep | Tied current best; clipping did not improve. |
