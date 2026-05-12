@@ -53,3 +53,13 @@
 | 20260510-08 | 2026-05-10 00:35 | Huber minus failed Ridge rank component, `t=0.180` | Fine grid near `t=0.175` | 0.05341 | reject | Correction slightly too strong. |
 | 20260510-09 | 2026-05-10 00:35 | Huber minus failed Ridge rank component, `t=0.182` | Fine grid near `t=0.175` | 0.05339 | reject | Correction too strong. |
 | 20260510-10 | 2026-05-10 00:35 | Huber minus clipped failed Ridge rank component, `t=0.175` | 0.5%-99.5% clipped component | 0.05345 | keep | Tied current best; clipping did not improve. |
+| 20260512-01 | 2026-05-12 07:59 | Huber minus failed Ridge rank component, `t=0.1745` | Very fine grid near `t=0.175` | 0.05344 | keep | Stable high score, just below current best. |
+| 20260512-02 | 2026-05-12 08:00 | Huber minus failed Ridge rank component, `t=0.1755` | Very fine grid near `t=0.175` | 0.05345 | keep | Tied current best; no further lift. |
+| 20260512-03 | 2026-05-12 08:00 | Huber minus failed Ridge rank component, `t=0.1765` | Very fine grid near `t=0.175` | 0.05344 | keep | Slightly below current best. |
+| 20260512-04 | 2026-05-12 08:01 | Huber minus failed Ridge rank component, `t=0.1735` | Very fine grid near `t=0.175` | 0.05342 | reject | Weaker than the tighter peak candidates. |
+| 20260512-05 | 2026-05-12 08:01 | Huber minus failed Ridge rank component, `t=0.1725` | Very fine grid near `t=0.175` | 0.05344 | keep | Stable but no improvement. |
+| 20260512-06 | 2026-05-12 08:02 | Huber minus failed Ridge rank component, `t=0.1695` | Lower-side probe around the peak | 0.05342 | reject | Too little correction. |
+| 20260512-07 | 2026-05-12 08:02 | Huber minus failed Ridge rank component, `t=0.1805` | Upper-side probe around the peak | 0.05341 | reject | Too much correction. |
+| 20260512-08 | 2026-05-12 08:03 | Huber minus clipped failed Ridge rank component, `t=0.175` | 1%-99% clipped component | 0.05345 | keep | Tied current best; stronger clipping did not improve. |
+| 20260512-09 | 2026-05-12 08:03 | Huber minus clipped failed Ridge rank component, `t=0.170` | 0.5%-99.5% clipped component | 0.05342 | reject | Clipped lower-side probe underperformed. |
+| 20260512-10 | 2026-05-12 08:13 | Huber minus clipped failed Ridge rank component, `t=0.180` | 0.5%-99.5% clipped component | 0.05341 | reject | Clipped upper-side probe underperformed. |
