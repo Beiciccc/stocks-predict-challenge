@@ -63,3 +63,13 @@
 | 20260512-08 | 2026-05-12 08:03 | Huber minus clipped failed Ridge rank component, `t=0.175` | 1%-99% clipped component | 0.05345 | keep | Tied current best; stronger clipping did not improve. |
 | 20260512-09 | 2026-05-12 08:03 | Huber minus clipped failed Ridge rank component, `t=0.170` | 0.5%-99.5% clipped component | 0.05342 | reject | Clipped lower-side probe underperformed. |
 | 20260512-10 | 2026-05-12 08:13 | Huber minus clipped failed Ridge rank component, `t=0.180` | 0.5%-99.5% clipped component | 0.05341 | reject | Clipped upper-side probe underperformed. |
+| 20260513-01 | 2026-05-13 02:08 | Huber minus failed Ridge rank component, `t=0.1749` | Ultra-fine grid near `t=0.175` | 0.05344 | keep | Stable, but no improvement. |
+| 20260513-02 | 2026-05-13 02:09 | Huber minus failed Ridge rank component, `t=0.1751` | Ultra-fine grid near `t=0.175` | 0.05345 | keep | Tied current best; lower edge of the plateau. |
+| 20260513-03 | 2026-05-13 02:09 | Huber minus failed Ridge rank component, `t=0.1752` | Ultra-fine grid near `t=0.175` | 0.05344 | keep | Slightly below current best. |
+| 20260513-04 | 2026-05-13 02:09 | Huber minus failed Ridge rank component, `t=0.1753` | Ultra-fine grid near `t=0.175` | 0.05344 | keep | Slightly below current best. |
+| 20260513-05 | 2026-05-13 02:10 | Huber minus failed Ridge rank component, `t=0.1754` | Ultra-fine grid near `t=0.175` | 0.05344 | keep | Slightly below current best. |
+| 20260513-06 | 2026-05-13 02:10 | Huber minus failed Ridge rank component, `t=0.1756` | Ultra-fine grid near `t=0.175` | 0.05344 | keep | Slightly below current best. |
+| 20260513-07 | 2026-05-13 02:11 | Huber minus clipped failed Ridge rank component, `t=0.1752` | 0.25%-99.75% clipped component | 0.05344 | reject | Clipping did not improve. |
+| 20260513-08 | 2026-05-13 02:11 | Huber minus clipped failed Ridge rank component, `t=0.1752` | 0.75%-99.25% clipped component | 0.05344 | reject | Stronger clipping did not improve. |
+| 20260513-09 | 2026-05-13 02:12 | Huber minus clipped failed Ridge rank component, `t=0.1755` | 0.25%-99.75% clipped component | 0.05345 | keep | Tied current best. |
+| 20260513-10 | 2026-05-13 02:12 | Rank blend of tied top variants | Blend of current tied public-best orderings | 0.05345 | keep | Tied current best; no evidence of further lift. |
