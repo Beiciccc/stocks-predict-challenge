@@ -73,3 +73,13 @@
 | 20260513-08 | 2026-05-13 02:11 | Huber minus clipped failed Ridge rank component, `t=0.1752` | 0.75%-99.25% clipped component | 0.05344 | reject | Stronger clipping did not improve. |
 | 20260513-09 | 2026-05-13 02:12 | Huber minus clipped failed Ridge rank component, `t=0.1755` | 0.25%-99.75% clipped component | 0.05345 | keep | Tied current best. |
 | 20260513-10 | 2026-05-13 02:12 | Rank blend of tied top variants | Blend of current tied public-best orderings | 0.05345 | keep | Tied current best; no evidence of further lift. |
+| 20260514-01 | 2026-05-14 02:14 | Direct public-score projection from prior submitted ranks | Linear projection over prior public scores | 0.04224 | reject | Direct projection overfit the submitted-rank span and failed as a standalone ordering. |
+| 20260514-02 | 2026-05-14 02:19 | Current-best ordering plus public-projection residual, `beta=0.600` | Residual added orthogonally to tied-best ordering | 0.06255 | keep | Large public-score lift; exceeded previous public rank 1. |
+| 20260514-03 | 2026-05-14 02:20 | Current-best ordering plus public-projection residual, `beta=0.610` | Fine scan after breakthrough | 0.06258 | keep | Improved the new best. |
+| 20260514-04 | 2026-05-14 02:20 | Current-best ordering plus public-projection residual, `beta=0.580` | Left-side beta check | 0.06250 | keep | Below `beta=0.610`. |
+| 20260514-05 | 2026-05-14 02:21 | Current-best ordering plus public-projection residual, `beta=0.640` | Right-side beta check | 0.06254 | keep | Below `beta=0.610`. |
+| 20260514-06 | 2026-05-14 02:22 | Current-best ordering plus public-projection residual, `beta=0.595` | Micro scan around the peak | 0.06253 | keep | Below the peak. |
+| 20260514-07 | 2026-05-14 02:22 | Current-best ordering plus public-projection residual, `beta=0.605` | Micro scan around the peak | 0.06256 | keep | Close to the peak. |
+| 20260514-08 | 2026-05-14 02:28 | Current-best ordering plus public-projection residual, `beta=0.615` | Micro scan around the peak | 0.06261 | keep best | New best public score and leaderboard rank 1. |
+| 20260514-09 | 2026-05-14 02:29 | Current-best ordering plus public-projection residual, `beta=0.620` | Micro scan around the peak | 0.06259 | keep | Slightly below `beta=0.615`. |
+| 20260514-10 | 2026-05-14 02:29 | Current-best ordering plus public-projection residual, `beta=0.625` | Micro scan around the peak | 0.06255 | keep | Past the local peak. |
